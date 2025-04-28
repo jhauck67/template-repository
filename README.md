@@ -4,13 +4,13 @@
 ![Responsive Design](https://img.shields.io/badge/Responsive_Design-Mobile_Friendly-2ea44f) ![Optimisation des images](https://img.shields.io/badge/Optimisation%20des%20images-Squoosh-blue) ![SEO Friendly](https://img.shields.io/badge/SEO-Friendly-2ea44f)  
 \
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-white?style=for-the-badge&logo=lighthouse) 
-![Performances](https://img.shields.io/badge/Performances-100-brightgreen) ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-100-brightgreen) ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-100-brightgreen) ![SEO](https://img.shields.io/badge/SEO-100-brightgreen)
+![Performances](https://img.shields.io/badge/Performances-xx-grey) ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-xx-grey) ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-xx-grey) ![SEO](https://img.shields.io/badge/SEO-xx-grey)
 \
-<img src="https://github.com/jhauck67/Projet-Gaming-Campus/blob/main/assets/sketch/aper%C3%A7u.png" alt="Aperçu du Projet" style="width:960px; height:auto;">
+<img src="" alt="Aperçu du Projet" style="width:960px; height:auto;">
 
 # Description
 
-Ce projet consiste en l'intégration d'une maquette desktop et mobile pour le site du **Gaming Campus**, un établissement qui enseigne les métiers du jeu vidéo. L'objectif est de recréer les maquettes en HTML et CSS tout en optimisant le site pour le SEO.
+*Description du projet*
 
 ## Technologies utilisées :
 
@@ -42,73 +42,69 @@ Le code a été structuré pour être facile à maintenir et à développer.
 ├── assets                  # Dossier pour les images, polices, maquettes, styles
 │   ├── fonts/              # Dossier pour les polices
 │   ├── img/                # Dossier pour les images
+│   ├── scripts/            # Dossier pour les fichiers JS
+│   │   ├── index.js        # Fichier principal SASS
 │   ├── sketch/             # Dossier pour les maquettes
 │   ├── styles/             # Dossier contenant les fichiers CSS et SASS
 │   │   ├── layouts/        # Dossier pour les styles de mise en page
 │   │   ├── _settings.scss  # Styles de base (typographie, variables)
 │   │   ├── index.css       # Fichier principal CSS généré depuis SASS
 │   │   ├── index.scss      # Fichier principal SASS
-├── planification.md        # Planification du projet
 ├── readme.md               # Documentation du projet
+├── .gitignore              # Fichier gitignore
+├── LICENSE                 # Fichier License
+├── .github/                # Dossier pour les workflows et templates d'issues
 ```
 
 # Aperçu
 
 Voici un aperçu du projet, que tu peux visualiser en ligne sur GitHub Pages :
-![Aperçu du projet](https://github.com/jhauck67/Projet-Gaming-Campus/blob/main/assets/sketch/projet-gaming-campus-video.gif)
+![Aperçu du projet]()  
+
 ## Lien vers le site en ligne
 
 Tu peux consulter la version en ligne de ce projet via GitHub Pages en cliquant sur le lien suivant :
-[Voir le site sur GitHub Pages](https://jhauck67.github.io/Projet-Gaming-Campus/)
+[Voir le site sur GitHub Pages]()
 
 # Audit Lighthouse <img src="https://go-skill-icons.vercel.app/api/icons?i=lighthouse" alt="Logo Lighthouse" style="width:32px; height:auto;">
 
 Le projet a été audité à l'aide de Lighthouse pour évaluer ses performances, son accessibilité, ses bonnes pratiques et son SEO. Voici les résultats :
 
-## Performances ![Performances](https://img.shields.io/badge/Performances-100-brightgreen)
+## Performances ![Performances](https://img.shields.io/badge/Performances-xx-grey)
 
-First Contentful Paint ![First Contentful Paint](https://img.shields.io/badge/FCP-0,4s-brightgreen)  
+First Contentful Paint ![First Contentful Paint](https://img.shields.io/badge/FCP-xx-grey)  
 \
-Largest Contentful Paint ![Largest Contentful Paint](https://img.shields.io/badge/LCP-0,4s-brightgreen)  
+Largest Contentful Paint ![Largest Contentful Paint](https://img.shields.io/badge/LCP-xx-grey)  
 \
-Total Blocking Time ![Total Blocking Time](https://img.shields.io/badge/TBT-0ms-brightgreen)  
+Total Blocking Time ![Total Blocking Time](https://img.shields.io/badge/TBT-xx-grey)  
 \
-Cumulative Layout Shift ![Cumulative Layout Shift](https://img.shields.io/badge/CLS-0-brightgreen)  
+Cumulative Layout Shift ![Cumulative Layout Shift](https://img.shields.io/badge/CLS-xx-grey)  
 \
-Speed Index ![Speed Index](https://img.shields.io/badge/Speed_Index-0,4s-brightgreen)
+Speed Index ![Speed Index](https://img.shields.io/badge/Speed_Index-xx-grey)
 \
 \
-Le site est parfaitement optimisé, avec un temps de chargement ultra rapide, une absence totale de blocage et de décalage de mise en page, garantissant une expérience utilisateur fluide et réactive.
+*Description des performances*
 \
-## Accessibilité ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-100-brightgreen)
-Le site est entièrement accessible, avec un score parfait de 100. Aucune erreur n'a été détectée sur les critères d'accessibilité, garantissant que le contenu est disponible pour tous les utilisateurs, y compris ceux ayant des besoins spécifiques.
+## Accessibilité ![Accessibilité](https://img.shields.io/badge/Accessibilit%C3%A9-xx-grey)
+*Description de l'accessibilité*
 
-## Bonnes pratiques ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-100-brightgreen)
-Le projet respecte les meilleures pratiques en matière de sécurité et de fiabilité, avec un score de 100. Toutes les vérifications recommandées pour assurer la sécurité, telles que la gestion des en-têtes CSP et HSTS, ont été appliquées.
+## Bonnes pratiques ![Bonnes Pratiques](https://img.shields.io/badge/Bonnes_pratiques-xx-grey)
+*Description des bonnes pratiques*
 
-## SEO ![SEO](https://img.shields.io/badge/SEO-100-brightgreen)
-Le site est optimisé pour le référencement naturel (SEO) avec un score de 100. Les bonnes pratiques SEO sont respectées, ce qui permet d'améliorer la visibilité du site sur les moteurs de recherche.
+## SEO ![SEO](https://img.shields.io/badge/SEO-xx-grey)
+*Description du SEO*
 
 # Améliorations possibles :
 
 - [ ] Optimisation des éléments visuels :
-
-  - [ ] Retrait des boutons : Retravailler les boutons pour améliorer leur interactivité et leur accessibilité. Ajouter des animations CSS ou JavaScript pour une meilleure expérience utilisateur.
-  - [ ] Ajout d'ancres : Mettre en place des ancres pour une meilleure navigation entre les sections du site.
-  - [ ] Optimiser les .png en .webp
-  - [ ] Ajouter des attributs **width** et **height** aux balises `<img>`
-  - [ ] Remplacer les balises `<i>` de Font Awesome par des `<img>` `.sgv`
-  - [ ] Ajouter `font-display` pour améliorer la performance
+  - [ ] Amélioration 1
+  - [ ] Amélioration 2
+  - [ ] Amélioration 3
 
 - [ ] Modifications SEO friendly :
-
-  - [ ] Balises <meta> : Auteur de la page pour améliorer la visibilité sur les moteurs de recherche.
-
-- [ ] Fichier sitemap.xml : Créer et soumettre un fichier sitemap pour faciliter l'indexation du site par les moteurs de recherche.
-
-- [ ] Rechercher des propositions d'améliorations SEO Friendly
-
-- [ ] Ajouter des balises Open Graph
+  - [ ] Amélioration 1
+  - [ ] Amélioration 2
+  - [ ] Amélioration 3
 
 # Auteur :
 
