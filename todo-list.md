@@ -47,6 +47,29 @@
 > On pourra utiliser le site [Squoosh](https://squoosh.app/) pour générer des images en webp
 
 - [ ] Identifier les images à "preload"
+
+```html
+<!-- CORRECT : les media queries ne se chevauchent pas -->
+<link
+  rel="preload"
+  as="image"
+  href="image.jpg"
+  media="screen and (min-width: 1024px)"
+/>
+<link
+  rel="preload"
+  as="image"
+  href="image_medium.jpg"
+  media="screen and (min-width: 768px) and (max-width: 1023px)"
+/>
+<link
+  rel="preload"
+  as="image"
+  href="image_small.jpg"
+  media="screen and (max-width: 767px)"
+/>
+```
+
 - [ ] Prévoir les icones en SVG si utilisation d'icones
 
 > Si on intègre les icones avec <svg> et non avec <img>, on ajoutera un `aria-label:"description de l'icone"`
