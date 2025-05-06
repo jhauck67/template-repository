@@ -127,16 +127,12 @@
 > On utilisera le site [Github Profile Header Générator](https://leviarista.github.io/github-profile-header-generator/)
 
 - [ ] Créer un aperçu du site
-- [ ] Créer une vidéo aperçu
-- [ ] Convertir la vidéo en GIF
+- [ ] Créer une vidéo aperçu `apercu.png`
+- [ ] Convertir la vidéo en GIF `video.gif`
 
 ## Commit & Push sur la manche "Main"
 
 - [ ] Commit et Push les fichiers sur la branche principale "main"
-
-## Mise à jour du readme
-
-- [ ] Récupérer les adresses de `aperçu.png` et `video.gif`
 
 ## Effectuer les tests visuels et de performances multi-plateformes
 
