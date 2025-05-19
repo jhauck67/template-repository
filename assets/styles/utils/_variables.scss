@@ -1,0 +1,90 @@
+// ====== 🧬 [VARIABLES] : Variables fonts, couleurs, espacements, etc... ======
+
+// 🔠 Typographie :
+// TODO Insérer les variables "font"
+$font-title: "Inter", Arial, Helvetica, sans-serif;
+$font-text: "Roboto", "Segoe UI", sans-serif;
+$font-code: "Fira Mono", monospace;
+// Utilisation : font-family: $title;
+
+// 🎨 Palette des couleurs :
+// TODO Insérer les variables "colors"
+$black: #000000;
+$anthracite: #222222;
+$grey: #888888;
+$white: #ffffff;
+$primary: #00bcd4;
+$secondary: #ff9800;
+$accent: #3f51b5;
+// Utilisation : color: $primary;
+
+// 📏 Définition des espacements
+$spacings: (
+  xs: 0.25rem,
+  // 4px
+  s: 0.5rem,
+  // 8px
+  m: 1rem,
+  // 16px
+  l: 1.5rem,
+  // 24px
+  xl: 2rem,
+  // 32px
+  xxl: 3rem // 48px,,,,,,,,
+);
+// Utilisation : padding: map-get($spacings, l) map-get($spacings, m);
+
+// 📐 Rayons de bordure (border-radius)
+$radius-xs: 2px;
+$radius-s: 4px;
+$radius-m: 8px;
+$radius-l: 16px;
+$radius-round: 50%;
+// Utilisation : border-radius: $radius-m;
+
+// 🕒 Durées de transition
+$transition-fast: 0.15s;
+$transition-normal: 0.3s;
+$transition-slow: 0.6s;
+// Utilisation : transition: all $transition-fast;
+
+// 🌫️ Ombres (box-shadow)
+$shadow-light: 0 1px 3px rgba(0, 0, 0, 0.07);
+$shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.12);
+$shadow-strong: 0 8px 32px rgba(0, 0, 0, 0.18);
+// Utilisation : box-shadow: $shadow-light;
+
+// 🔡 Tailles de police
+$font-size-xs: 0.75rem; // 12px
+$font-size-s: 0.875rem; // 14px
+$font-size-m: 1rem; // 16px
+$font-size-l: 1.25rem; // 20px
+$font-size-xl: 2rem; // 32px
+$font-size-xxl: 3rem; // 48px
+// Utilisation : font-size: $font-size-l;
+
+// 📱 Définition des breakpoints
+$breakpoints: (
+  mobile: 480px,
+  tablet: 770px,
+  desktop: 1024px,
+);
+// Utilisation (avec mixin respond) : @include respond(tablet) { ... }
+
+// 📚 Définition des z-index
+$z-index: (
+  base: 1,
+  // pour le fond général
+  content: 10,
+  // pour le contenu principal
+  header: 100,
+  // pour la barre de navigation ou le header sticky
+  dropdown: 200,
+  // pour les menus déroulants
+  overlay: 500,
+  // pour un overlay général
+  modal: 600,
+  // pour la modale elle-même
+  tooltip: 1000 // pour les toolstips ou popovers,,,,,,,,,,,,,,
+);
+// Utilisation : z-index: map-get($z-index, modal);

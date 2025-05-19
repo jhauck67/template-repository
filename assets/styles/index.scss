@@ -1,3 +1,18 @@
-/* ---------------------- Liens vers les pages à relier --------------------- */
+// ====== 🧭 [INDEX DES PAGES SCSS] ======
 
-@import "./settings";
+// 🧰 [UTILS] : Variables, Mixins, Placeholders, ...
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+// 📚 [BASE] : Reset, paramètres globaux, typographie ...
+@import "./base/typography";
+@import "./base/reset";
+@import "./base/global";
+@import "./base/fluid-responsive";
+
+// 🧱 [LAYOUTS] : Mise en page des différentes sections
+// TODO Lier les différents layouts
+
+// 🧩 [COMPONENTS] : Boutons, Formulaire, ...
+// TODO Lier les différents composants

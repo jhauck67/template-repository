@@ -1,0 +1,60 @@
+// ====== ⚙️ [REGLAGES GLOBAUX] : Paramétrages globaux des balises ======
+
+// TODO Définir les paramètres globaux
+// Paramétrage de la taille du body, son background, ...
+body {
+  width: 100dvw;
+  min-height: 100dvh;
+  background: $white;
+  overflow-x: hidden;
+  font-family: $font-text;
+  color: $black;
+  font-weight: 400;
+}
+
+// Paramétrage des liens
+a,
+a:visited {
+  color: $primary;
+  font-family: $font-text;
+  transition: $transition-normal ease;
+}
+
+// Paramétrage du texte : Titres (H1, H2, H3) et paragraphes
+h1 {
+  color: $black;
+  font-family: $font-title;
+  font-weight: 800;
+  @include fluidFont(2rem, 3.5rem);
+  @include fluidMargin(1.5rem, 2.5rem, 320px, 1440px, bottom);
+}
+h2 {
+  color: $black;
+  font-family: $font-title;
+  font-weight: 700;
+  @include fluidFont(1.3rem, 2.2rem);
+  @include fluidMargin(1rem, 1.8rem, 320px, 1440px, bottom);
+}
+h3 {
+  color: $black;
+  font-family: $font-title;
+  font-weight: 600;
+  @include fluidFont(1.1rem, 1.6rem);
+  @include fluidMargin(0.8rem, 1.2rem, 320px, 1440px, bottom);
+}
+p,
+a {
+  color: $black;
+  font-family: $text;
+  font-weight: 400;
+  @include fluidFont(1rem, 1.25rem);
+  @include fluidMargin(0.6rem, 1rem, 320px, 1440px, bottom);
+}
+
+// Partie de texte à afficher en monospace
+.code-text {
+  color: $black;
+  font-family: $font-code;
+  font-weight: 300;
+  @include fluidFont(0.9rem, 1.1rem);
+}

@@ -1,0 +1,23 @@
+// ====== 🔠 [FONTS] : Import des fonts utilisées ======
+
+// TODO Importer les polices
+// Polices pour les titres, les boutons, ...
+@font-face {
+  font-family: "Nom-de-la-police";
+  src: url(../fonts/fichier-police.ttf);
+  font-display: swap; //Pour éviter les décalages de mise en page
+}
+
+// Police de base pour le texte
+@font-face {
+  font-family: "Nom-de-la-police";
+  src: url(../fonts/fichier-police.ttf);
+  font-display: swap; //Pour éviter les décalages de mise en page
+}
+
+// Police pour les blocs de code
+@font-face {
+  font-family: "Nom-de-la-police";
+  src: url(../fonts/fichier-police.ttf);
+  font-display: swap; //Pour éviter les décalages de mise en page
+}

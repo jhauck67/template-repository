@@ -1,0 +1,104 @@
+// ====== ⚙️ [FLUID-RESPONSIVE] : Mixin pour tailles de police et espacements fluides ======
+
+// 🔠 Mixin pour une font-size fluide
+@mixin fluidFont($min, $max, $vw-min: 320px, $vw-max: 1440px) {
+  font-size: clamp(
+    #{$min},
+    calc(
+      #{$min} + (#{strip-unit($max)} - #{strip-unit($min)}) * ((
+              100vw - #{$vw-min}
+            ) / (#{strip-unit($vw-max)} - #{strip-unit($vw-min)}))
+    ),
+    #{$max}
+  );
+  min-height: 0vw; // Safari fix pour tailles fluides
+}
+// Utilisation :
+// @include fluidFont(1rem, 2rem); // min et max sur 320px-1440px par défaut
+// @include fluidFont(1rem, 2rem, 375px, 1200px); // custom breakpoints
+
+// 📏 Mixin pour une margin fluide
+@mixin fluidMargin(
+  $min,
+  $max,
+  $vw-min: 320px,
+  $vw-max: 1440px,
+  $direction: all
+) {
+  $clamp: clamp(
+    #{$min},
+    calc(
+      #{$min} + (#{strip-unit($max)} - #{strip-unit($min)}) * ((
+              100vw - #{$vw-min}
+            ) / (#{strip-unit($vw-max)} - #{strip-unit($vw-min)}))
+    ),
+    #{$max}
+  );
+
+  @if $direction == all {
+    margin: $clamp;
+  } @else if $direction == tb or $direction == y or $direction == vertical {
+    margin-top: $clamp;
+    margin-bottom: $clamp;
+  } @else if $direction == lr or $direction == x or $direction == horizontal {
+    margin-left: $clamp;
+    margin-right: $clamp;
+  } @else if $direction == top {
+    margin-top: $clamp;
+  } @else if $direction == right {
+    margin-right: $clamp;
+  } @else if $direction == bottom {
+    margin-bottom: $clamp;
+  } @else if $direction == left {
+    margin-left: $clamp;
+  }
+  min-height: 0vw; // Safari fix pour tailles fluides
+}
+// Utilisation :
+// @include fluidMargin(1rem, 2rem); // Tous les cotés
+// @include fluidMargin(1rem, 2rem, 320px, 1200px, y); // Haut et bas uniquement
+// @include fluidMargin(0.5rem, 1rem, 320px, 1200px, x); // Gauche et droite uniquement
+// @include fluidMargin(2rem, 4rem, 320px, 1200px, bottom); // Un seul côté
+
+// 🖼️ Mixin pour un padding fluide
+@mixin fluidPadding(
+  $min,
+  $max,
+  $vw-min: 320px,
+  $vw-max: 1440px,
+  $direction: all
+) {
+  $clamp: clamp(
+    #{$min},
+    calc(
+      #{$min} + (#{strip-unit($max)} - #{strip-unit($min)}) * ((
+              100vw - #{$vw-min}
+            ) / (#{strip-unit($vw-max)} - #{strip-unit($vw-min)}))
+    ),
+    #{$max}
+  );
+
+  @if $direction == all {
+    padding: $clamp;
+  } @else if $direction == tb or $direction == y or $direction == vertical {
+    padding-top: $clamp;
+    padding-bottom: $clamp;
+  } @else if $direction == lr or $direction == x or $direction == horizontal {
+    padding-left: $clamp;
+    padding-right: $clamp;
+  } @else if $direction == top {
+    padding-top: $clamp;
+  } @else if $direction == right {
+    padding-right: $clamp;
+  } @else if $direction == bottom {
+    padding-bottom: $clamp;
+  } @else if $direction == left {
+    padding-left: $clamp;
+  }
+  min-height: 0vw; // Safari fix pour tailles fluides
+}
+// Utilisation :
+// @include fluidPadding(1rem, 2rem); // Tous les cotés
+// @include fluidPadding(1rem, 2rem, 320px, 1200px, y); // Haut et bas uniquement
+// @include fluidPadding(0.5rem, 1rem, 320px, 1200px, x); // Gauche et droite uniquement
+// @include fluidPadding(2rem, 4rem, 320px, 1200px, bottom); // Un seul côté
