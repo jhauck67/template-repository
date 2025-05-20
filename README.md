@@ -12,12 +12,12 @@
   
   <p>
     <a href="./index.html">Voir la démo</a> •
-    <a href="#à-propos">À propos</a> •
-    <a href="#ce-que-j’ai-appris">Ce que j'ai appris</a> •
-    <a href="#améliorations">Améliorations futures</a>
+    <a href="#-présentation-rapide">Présentation projet</a> •
+    <a href="#-ce-que-jai-appris">Ce que j'ai appris</a> •
+    <a href="#-à-propos-de-lautrice">À propos</a>
   </p>
   
-  <img src="./assets/screenshot.png" alt="Aperçu du projet" width="600" />
+  <img src="./assets/sketch/screenshot.png" alt="Aperçu du projet" width="600" />
 </div>
 
 ## 🧩 Présentation rapide
@@ -31,27 +31,25 @@ Contraintes : **[design imposé, responsive, animations, etc.]**
 
 ## 🖼️ Aperçu
 
-<img src="/assets/screenshot.png" alt="Aperçu du projet" width="700"/>
+<img src="./assets/sketch/video.gif" alt="Aperçu du projet" width="700"/>
 
 ## 🔧 Technologies utilisées
 
 - HTML5 sémantique
-- CSS3 (Flexbox & Grid)
-- JavaScript vanilla
-- [Autres technologies/bibliothèques si utilisées]
+- SASS (Mixins, variables,...)
 
 ## ✅ Ce que j’ai appris
 
 - [x] Mieux structurer mon HTML
 - [x] Utiliser Flexbox / Grid sans pleurer
 - [x] Gérer les effets au survol (hover / transitions)
-- [x] Ajouter une touche de JS pour rendre le tout interactif
+- [x] Découvrir les améliorations de performances 
 
 ## 🛠️ À améliorer plus tard
 
-- 🔧 Ajouter une version responsive mobile
-- 💡 Optimiser les performances (images, structure, etc.)
-- 🧪 Tester l'accessibilité avec des outils comme Lighthouse
+- ♿ Améliorer ma sémantique HTML
+- 💡 Mieux structurer mes projets
+- 🧪 S'entraîner à utiliser le fluid-responsive
 
 ## 👩‍💻 À propos de l’autrice
 
@@ -68,7 +66,7 @@ Contraintes : **[design imposé, responsive, animations, etc.]**
   Apprentie développeuse web</p>
   <p>
     <a href="https://github.com/jhauck67">GitHub</a> •
-    <a href="#">Portfolio</a> •
-    <a href="#">Codepen.io</a>
+    <a href="https://jhauck67.github.io/jhauck67/">Portfolio</a> •
+    <a href="https://codepen.io/jhauck67">Codepen.io</a>
   </p>
 </div>
