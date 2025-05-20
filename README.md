@@ -7,10 +7,10 @@
   <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS Badge"/>
   <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black" alt="JS Badge"/>
   <img src="https://img.shields.io/badge/Statut-Terminé-brightgreen.svg" alt="Statut Badge"/>
-  <img src="https://img.shields.io/badge/Licence-MIT-blue.svg" alt="Licence Badge"/>
 </p>
   
   <p>
+  <!-- TODO Modifier le chemin de l'ancre -->
     <a href="./index.html">Voir la démo</a> •
     <a href="#-présentation-rapide">Présentation projet</a> •
     <a href="#-ce-que-jai-appris">Ce que j'ai appris</a> •
@@ -26,6 +26,8 @@ Petit projet codé avec amour 💻✨
 Objectif : **[décrire le but du projet]**  
 Contexte : **[formation, défi, tuto, perso...]**  
 Contraintes : **[design imposé, responsive, animations, etc.]**
+
+<!-- TODO Modifier le chemin de l'ancre -->
 
 🔗 [Voir la démo dans le navigateur](./index.html)
 
@@ -43,7 +45,7 @@ Contraintes : **[design imposé, responsive, animations, etc.]**
 - [x] Mieux structurer mon HTML
 - [x] Utiliser Flexbox / Grid sans pleurer
 - [x] Gérer les effets au survol (hover / transitions)
-- [x] Découvrir les améliorations de performances 
+- [x] Découvrir les améliorations de performances
 
 ## 🛠️ À améliorer plus tard
 
